@@ -25,6 +25,11 @@ namespace IngvarJonassen.Controllers
             return View();
         }
 
+        public ActionResult Mur()
+        {
+            return View();
+        }
+
         public ActionResult Kontakt()
         {
             return View();

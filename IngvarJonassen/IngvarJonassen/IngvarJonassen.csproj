@@ -118,6 +118,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\font\fontawesome-webfont.svg" />
     <Content Include="Content\image\5.jpg" />
+    <Content Include="Content\image\ansatt.jpg" />
     <Content Include="Content\image\arrows.png" />
     <Content Include="Content\image\bg-heading.png" />
     <Content Include="Content\image\bg-text.png" />
@@ -136,6 +137,7 @@
     <Content Include="Content\image\logo2.png" />
     <Content Include="Content\image\logo4.png" />
     <Content Include="Content\image\slider-image.png" />
+    <Content Include="Content\img-hover-effect.css" />
     <Content Include="Content\sorting.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
@@ -187,6 +189,7 @@
     <Content Include="Views\Home\Kontakt.cshtml" />
     <Content Include="Views\Home\Partnere.cshtml" />
     <Content Include="Views\Home\Inspirasjon.cshtml" />
+    <Content Include="Views\Home\Mur.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
