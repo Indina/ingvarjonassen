@@ -6,6 +6,7 @@
         initParallaxSlider: function () {
             $(function () {
                 $('#da-slider').cslider();
+                $('.carousel').carousel();
             });
         },
 
