@@ -147,6 +147,7 @@
     <Content Include="Content\image\kart.png" />
     <Content Include="Content\image\kart2.png" />
     <Content Include="Content\image\kart3.png" />
+    <Content Include="Content\image\kontakt.png" />
     <Content Include="Content\image\lekeplass.JPG" />
     <Content Include="Content\image\log3.png" />
     <Content Include="Content\image\logo.png" />
@@ -158,6 +159,7 @@
     <Content Include="Content\image\slid1.png" />
     <Content Include="Content\image\slid2.png" />
     <Content Include="Content\image\slid3.png" />
+    <Content Include="Content\image\slid4.png" />
     <Content Include="Content\image\slider-image.png" />
     <Content Include="Content\image\trapp.JPG" />
     <Content Include="Content\image\trapp2.JPG" />
