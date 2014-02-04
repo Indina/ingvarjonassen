@@ -150,8 +150,10 @@
     <Content Include="Content\image\lekeplass.JPG" />
     <Content Include="Content\image\log3.png" />
     <Content Include="Content\image\logo.png" />
+    <Content Include="Content\image\logo1_01.png" />
     <Content Include="Content\image\logo2.png" />
     <Content Include="Content\image\logo4.png" />
+    <Content Include="Content\image\logo6.png" />
     <Content Include="Content\image\mur.JPG" />
     <Content Include="Content\image\slid1.png" />
     <Content Include="Content\image\slid2.png" />
