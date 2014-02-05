@@ -155,6 +155,7 @@
     <Content Include="Content\image\logo2.png" />
     <Content Include="Content\image\logo4.png" />
     <Content Include="Content\image\logo6.png" />
+    <Content Include="Content\image\logo90.png" />
     <Content Include="Content\image\mur.JPG" />
     <Content Include="Content\image\slid1.png" />
     <Content Include="Content\image\slid2.png" />
@@ -203,6 +204,7 @@
     <Compile Include="App_Start\BootstrapBundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KontaktController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -213,7 +215,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\Tjenester.cshtml" />
     <Content Include="Views\Home\Omoss.cshtml" />
-    <Content Include="Views\Home\Kontakt.cshtml" />
+    <Content Include="Views\Kontakt\Index.cshtml" />
     <Content Include="Views\Home\Partnere.cshtml" />
     <Content Include="Views\Home\Inspirasjon.cshtml" />
     <Content Include="Views\Home\Mur.cshtml" />

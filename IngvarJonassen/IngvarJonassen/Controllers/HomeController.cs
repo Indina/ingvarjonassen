@@ -30,10 +30,7 @@ namespace IngvarJonassen.Controllers
             return View();
         }
 
-        public ActionResult Kontakt()
-        {
-            return View();
-        }
+      
         public ActionResult Inspirasjon()
         {
             return View();
