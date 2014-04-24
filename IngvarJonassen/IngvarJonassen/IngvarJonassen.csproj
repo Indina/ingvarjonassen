@@ -136,10 +136,19 @@
     <Content Include="Content\image\bg6.gif" />
     <Content Include="Content\image\bg7.gif" />
     <Content Include="Content\image\bg90.gif" />
+    <Content Include="Content\image\bilde1.jpg" />
+    <Content Include="Content\image\bilde2.jpg" />
+    <Content Include="Content\image\bilde3.jpg" />
+    <Content Include="Content\image\bilde4.jpg" />
+    <Content Include="Content\image\bilde5.jpg" />
+    <Content Include="Content\image\bilde6.jpg" />
+    <Content Include="Content\image\bildediverse.jpg" />
+    <Content Include="Content\image\bildetreverk.jpg" />
     <Content Include="Content\image\carousel-img.jpg" />
     <Content Include="Content\image\diverse.JPG" />
     <Content Include="Content\image\diverse2.JPG" />
     <Content Include="Content\image\gront.JPG" />
+    <Content Include="Content\image\IMG_2109.JPG" />
     <Content Include="Content\image\jonassen.png" />
     <Content Include="Content\image\jonassen2.png" />
     <Content Include="Content\image\kamera.jpg" />
@@ -193,6 +202,11 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery.cslider.js" />
     <Content Include="Scripts\jquery.flexslider.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr.custom.js" />
     <Content Include="Scripts\modernizr.js" />
     <Content Include="Web.config" />
@@ -218,6 +232,12 @@
     <Content Include="Views\Kontakt\Index.cshtml" />
     <Content Include="Views\Home\Partnere.cshtml" />
     <Content Include="Views\Home\Inspirasjon.cshtml" />
+    <Content Include="Views\Home\Kantstein.cshtml" />
+    <Content Include="Views\Home\Belegning.cshtml" />
+    <Content Include="Views\Home\Grontareal.cshtml" />
+    <Content Include="Views\Home\LekeplassPark.cshtml" />
+    <Content Include="Views\Home\Trapp.cshtml" />
+    <Content Include="Views\Home\Treverk.cshtml" />
     <Content Include="Views\Home\Mur.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

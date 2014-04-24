@@ -25,11 +25,34 @@ namespace IngvarJonassen.Controllers
             return View();
         }
 
+        public ActionResult Kantstein()
+        {
+            return View();
+        }
+        public ActionResult Belegning()
+        {
+            return View();
+        }
         public ActionResult Mur()
         {
             return View();
         }
-
+        public ActionResult Grontareal()
+        {
+            return View();
+        }
+        public ActionResult Treverk()
+        {
+            return View();
+        }
+        public ActionResult Trapp()
+        {
+            return View();
+        }
+        public ActionResult LekeplassPark()
+        {
+            return View();
+        }
       
         public ActionResult Inspirasjon()
         {
