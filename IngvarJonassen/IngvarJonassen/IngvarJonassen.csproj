@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -111,12 +113,9 @@
   <ItemGroup>
     <Content Include="Content\boostrap-responsive.min.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\font-awesome-ie7.css" />
-    <Content Include="Content\font-awesome-ie7.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\font\fontawesome-webfont.svg" />
     <Content Include="Content\image\5.jpg" />
     <Content Include="Content\image\ansatt.jpg" />
     <Content Include="Content\image\arrows.png" />
@@ -126,15 +125,19 @@
     <Content Include="Content\image\beleg4.jpg" />
     <Content Include="Content\image\beleg5.jpg" />
     <Content Include="Content\image\beleg6.jpg" />
+    <Content Include="Content\image\beleg7.jpg" />
     <Content Include="Content\image\belegg.JPG" />
     <Content Include="Content\image\belegg2.JPG" />
     <Content Include="Content\image\bg-heading.png" />
     <Content Include="Content\image\bg-text.png" />
     <Content Include="Content\image\bg.jpg" />
+    <Content Include="Content\image\bg11.jpg" />
     <Content Include="Content\image\bg11.png" />
+    <Content Include="Content\image\bg12.jpg" />
     <Content Include="Content\image\bg12.png" />
     <Content Include="Content\image\bg13.png" />
     <Content Include="Content\image\bg14.png" />
+    <Content Include="Content\image\bg18.jpg" />
     <Content Include="Content\image\bg2.png" />
     <Content Include="Content\image\bg3.png" />
     <Content Include="Content\image\bg4.png" />
@@ -151,6 +154,7 @@
     <Content Include="Content\image\bildediverse.jpg" />
     <Content Include="Content\image\bildetreverk.jpg" />
     <Content Include="Content\image\carousel-img.jpg" />
+    <Content Include="Content\image\div1.jpg" />
     <Content Include="Content\image\diverse.JPG" />
     <Content Include="Content\image\diverse2.JPG" />
     <Content Include="Content\image\gront.JPG" />
@@ -180,8 +184,10 @@
     <Content Include="Content\image\lek3.jpg" />
     <Content Include="Content\image\lek4.jpg" />
     <Content Include="Content\image\lek5.jpg" />
+    <Content Include="Content\image\lek6.jpg" />
     <Content Include="Content\image\lekeplass.JPG" />
     <Content Include="Content\image\log3.png" />
+    <Content Include="Content\image\logo-Anleggsgartner-IngvarJonassenAs.jpg" />
     <Content Include="Content\image\logo.png" />
     <Content Include="Content\image\logo1_01.png" />
     <Content Include="Content\image\logo2.png" />
@@ -189,24 +195,34 @@
     <Content Include="Content\image\logo6.png" />
     <Content Include="Content\image\logo90.png" />
     <Content Include="Content\image\mur.JPG" />
+    <Content Include="Content\image\mur1.jpg" />
+    <Content Include="Content\image\mur2.jpg" />
+    <Content Include="Content\image\mur3.jpg" />
+    <Content Include="Content\image\mur4.jpg" />
+    <Content Include="Content\image\mur5.jpg" />
+    <Content Include="Content\image\mur6.jpg" />
     <Content Include="Content\image\slid1.png" />
     <Content Include="Content\image\slid2.png" />
     <Content Include="Content\image\slid3.png" />
     <Content Include="Content\image\slid4.png" />
     <Content Include="Content\image\slider-image.png" />
     <Content Include="Content\image\trapp.JPG" />
+    <Content Include="Content\image\trapp1.jpg" />
     <Content Include="Content\image\trapp2.JPG" />
+    <Content Include="Content\image\trapp3.jpg" />
+    <Content Include="Content\image\trapp4.jpg" />
+    <Content Include="Content\image\trapp5.jpg" />
+    <Content Include="Content\image\trapp6.jpg" />
+    <Content Include="Content\image\tre1.jpg" />
+    <Content Include="Content\image\tre2.jpg" />
     <Content Include="Content\image\treverk.JPG" />
     <Content Include="Content\img-hover-effect.css" />
     <Content Include="Content\sorting.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\font\fontawesome-webfont.woff" />
-    <Content Include="Content\font\fontawesome-webfont.ttf" />
-    <Content Include="Content\font\fontawesome-webfont.eot" />
-    <Content Include="Content\font\FontAwesome.otf" />
     <Content Include="Content\style.css" />
     <None Include="BundleTransformer.Configuration.xsd">
       <SubType>Designer</SubType>
@@ -216,6 +232,10 @@
     <Content Include="Content\flexslider.css" />
     <Content Include="Content\style_responsive.css" />
     <Content Include="Content\parallax-slider.css" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\back-to-top.js" />
@@ -262,6 +282,7 @@
     <Content Include="Views\Home\Trapp.cshtml" />
     <Content Include="Views\Home\Treverk.cshtml" />
     <Content Include="Views\Home\Mur.cshtml" />
+    <Content Include="Views\Home\Diverse.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -298,6 +319,13 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

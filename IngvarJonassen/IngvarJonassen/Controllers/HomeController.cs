@@ -18,7 +18,10 @@ namespace IngvarJonassen.Controllers
         {
             return View();
         }
-
+        public ActionResult Diverse()
+        {
+            return View();
+        }
 
         public ActionResult Omoss()
         {

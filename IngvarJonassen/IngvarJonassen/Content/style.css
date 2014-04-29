@@ -116,18 +116,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 	margin-bottom:10px;
 	padding:15px 15px 10px;
 }
-.service:hover {
-	border-radius:2px;
-	box-shadow:0 0 8px #ddd;
-	background:#fcfcfc;
-    -webkit-transition:box-shadow 0.2s ease-in-out;
-    -moz-transition:box-shadow 0.2s ease-in-out;
-    -o-transition:box-shadow 0.2s ease-in-out;
-    transition:box-shadow 0.2s ease-in-out;
-}
-.service:hover i {
-	color:#656565;
-}
+
 .service i {
 	float:left;
 	padding:10px;
