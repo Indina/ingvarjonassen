@@ -2,9 +2,94 @@
     ViewBag.Title = "Tjenester";
     Layout = "~/Views/_Layout.cshtml";
 }
+
+<div class="header">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="/home"><img style="width: 330px" id="logo-header" src="~/Content/image/logo-Anleggsgartner-IngvarJonassenAs.jpg" /></a>
+
+
+
+        </div><!-- /logo -->
+        <!-- Menu -->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a><!-- /nav-collapse -->
+                <div class="nav-collapse collapse">
+                    <ul id="top-nav" class="nav top-2">
+                        <li>
+                            <a href="/home">
+                                Hjem
+
+                            </a>
+
+                        </li>
+                        <li class=" active dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Produkter
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/home/tjenester">Alle produkter</a></li>
+                                <li><a href="/home/kantstein">Kantstein</a></li>
+                                <li><a href="/home/belegning">Beleggningsstein</a></li>
+                                <li><a href="/home/mur">Mur</a></li>
+                                <li><a href="/home/lekeplasspark">Lekeplass og park</a></li>
+                                <li><a href="/home/grontareal">Grønt</a></li>
+                                <li><a href="/home/trapp">Trapp</a></li>
+                                <li><a href="/home/treverk">Treverksarbeid</a></li>
+                                <li>
+                                    <a href="/home/diverse">Diverse</a>
+                                </li>
+                            </ul>
+                            <b class="caret-out"></b>
+                        </li>
+                        <li>
+                            <a href="/home/omoss">
+                                Om oss
+
+                            </a>
+
+                        </li>
+
+                        @*<li>
+                                <a href="/home/partnere">
+                                    Leverandører
+
+                                </a>
+
+
+                            </li>*@
+                        <li>
+                            <a href="/kontakt">
+                                Kontakt oss
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+                    <div class="search-open">
+                        <div class="input-append">
+                            <form>
+                                <input type="text" class="span3" placeholder="Search">
+                                <button type="submit" class="btn-u">Go</button>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /nav-collapse -->
+            </div><!-- /navbar-inner -->
+        </div><!-- /navbar -->
+    </div><!-- /container -->
+</div>
 <div class="breadcrumbs margin-bottom-40">
     <div class="container">
-        <h1 class="color-green pull-left">Kantstein</h1>
+        <h1 class="color-green pull-left">Lekeplass og park</h1>
         <ul class="pull-right breadcrumb">
             <li><a href="/home">Home</a> <span class="divider">/</span></li>
             <li><a href="/home/tjenester">Tjenester</a><span class="divider">/</span></li>
@@ -59,8 +144,8 @@
         <!-- //End Tabs and Carousel -->
 
         <div class="span5">
-            <h3>Lekeplass og park</h3>
-            <p>Vi leverer og monterer utstyr til lekeplasser, park og privat. Vi bruker Lek og Sikkerhet og Kompan Norge som leverandører av lekeutstyr, og leverer godkjent fallunderlag ihht krav. Bord og benker, avfallsbeholdere, sykkelstativ/pullerter, plantekasser er noe av det vi kan tilby.</p>
+           
+            <h5>Vi leverer og monterer utstyr til lekeplasser, park og privat. Vi bruker Lek og Sikkerhet og Kompan Norge som leverandører av lekeutstyr, og leverer godkjent fallunderlag ihht krav. Bord og benker, avfallsbeholdere, sykkelstativ/pullerter, plantekasser er noe av det vi kan tilby.</h5>
           
         </div>
     </div><!--/row-fluid-->

@@ -1,5 +1,22 @@
 ﻿var App = function () {
 
+
+    $(function () {
+
+        //var lis = $("#top-nav li");
+
+        //lis.click(function(event)
+        //{
+        //    lis.removeClass("active");
+        //    if (event.target && event.target.parentNode) {
+        //        lis.addClass("active");
+        //    };
+        //})
+    });
+
+
+
+
     function handleIEFixes() {
         //fix html5 placeholder attribute for ie7 & ie8
         if (jQuery.browser.msie && jQuery.browser.version.substr(0, 1) < 9) { // ie7&ie8
