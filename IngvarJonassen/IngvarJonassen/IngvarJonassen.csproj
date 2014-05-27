@@ -158,6 +158,7 @@
     <Content Include="Content\image\div1.jpg" />
     <Content Include="Content\image\diverse.JPG" />
     <Content Include="Content\image\diverse2.JPG" />
+    <Content Include="Content\image\ellen.jpg" />
     <Content Include="Content\image\gront.JPG" />
     <Content Include="Content\image\gront1.jpg" />
     <Content Include="Content\image\gront2.jpg" />
@@ -166,6 +167,7 @@
     <Content Include="Content\image\gront5.jpg" />
     <Content Include="Content\image\gront6.jpg" />
     <Content Include="Content\image\IMG_2109.JPG" />
+    <Content Include="Content\image\ingvar.jpg" />
     <Content Include="Content\image\jonassen.png" />
     <Content Include="Content\image\jonassen2.png" />
     <Content Include="Content\image\kamera.jpg" />
@@ -180,6 +182,7 @@
     <Content Include="Content\image\kart2.png" />
     <Content Include="Content\image\kart3.png" />
     <Content Include="Content\image\kontakt.png" />
+    <Content Include="Content\image\kontaktoss.jpg" />
     <Content Include="Content\image\lek1.jpg" />
     <Content Include="Content\image\lek2.jpg" />
     <Content Include="Content\image\lek3.jpg" />
