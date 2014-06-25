@@ -3,15 +3,10 @@
 
     $(function () {
 
-        //var lis = $("#top-nav li");
+        $('#gallery').photobox('a', { time: 0 });
 
-        //lis.click(function(event)
-        //{
-        //    lis.removeClass("active");
-        //    if (event.target && event.target.parentNode) {
-        //        lis.addClass("active");
-        //    };
-        //})
+     
+
     });
 
 

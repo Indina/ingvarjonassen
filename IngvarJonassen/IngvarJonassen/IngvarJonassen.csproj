@@ -432,6 +432,7 @@
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\back-to-top.js" />
     <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\images\loading.gif" />
     <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -447,6 +448,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr.custom.js" />
     <Content Include="Scripts\modernizr.js" />
+    <Content Include="Scripts\photobox\jquery.photobox.js" />
+    <Content Include="Scripts\photobox\photobox.css" />
+    <Content Include="Scripts\photobox\photobox.ie.css" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map.js" />
     <Content Include="Views\_Layout.cshtml" />

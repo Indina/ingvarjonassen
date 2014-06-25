@@ -1869,3 +1869,12 @@ clip:rect(0px,60px,200px,0px);
 
 
 }
+
+
+#gallery > a> img{
+
+    width:250px;
+    margin: 10px 15px;
+
+
+}
