@@ -1870,10 +1870,17 @@ clip:rect(0px,60px,200px,0px);
 
 }
 
+#gallery {
+
+   
+    margin: 0 -15px;
+
+
+}
 
 #gallery > a> img{
 
-    width:250px;
+    width:267px;
     margin: 10px 15px;
 
 
