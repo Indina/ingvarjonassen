@@ -1849,11 +1849,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
 
-.container
-{
-
-}
-
 .circular {
 	width: 300px;
 	height: 300px;
@@ -1872,16 +1867,63 @@ clip:rect(0px,60px,200px,0px);
 
 #gallery {
 
-   
+
     margin: 0 -15px;
 
 
 }
 
-#gallery > a> img{
+ #gallery > a > img {
+        margin: 10px 0;
+    }
 
-    width:267px;
-    margin: 10px 15px;
+.container{
+
+    padding-left:15px;
+    padding-right:15px;
+
+}
 
 
+
+@media (max-width: 980px) {
+
+    #gallery {
+        text-align:center;
+    }
+
+
+}
+@media (max-width: 768px) {
+
+    .thumbnail-style {
+
+        text-align:center;
+    }
+
+     .thumbnail-style img {
+         width:50%;
+         margin:0 auto;
+    }
+     
+#gallery {
+
+   
+    margin: 0;
+
+
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+
+    
+
+    #gallery > a > img {
+        width: 267px;
+        margin: 10px 15px;
+    }
 }
